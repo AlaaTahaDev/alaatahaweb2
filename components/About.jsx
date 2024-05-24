@@ -42,18 +42,8 @@ const qualificationData = [
     title: "education",
     data: [
       {
-        university: "asdas",
-        qualification: "asdas",
-        years: "2016 - 2021",
-      },
-      {
-        university: "asdas",
-        qualification: "asdas",
-        years: "2016 - 2021",
-      },
-      {
-        university: "asdas",
-        qualification: "asdas",
+        university: "Faculty. Ain-Shams",
+        qualification: "computer science",
         years: "2016 - 2021",
       },
     ],
@@ -62,19 +52,19 @@ const qualificationData = [
     title: "experience",
     data: [
       {
-        university: "asdas",
-        qualification: "asdas",
-        years: "2016 - 2021",
+        university: "Flutter Dart",
+        qualification: "3 years",
+        years: "2021 - 2024",
       },
       {
-        university: "asdas",
-        qualification: "asdas",
-        years: "2016 - 2021",
+        university: "Nodejs",
+        qualification: "2 years",
+        years: "2022 - 2024",
       },
       {
-        university: "asdas",
-        qualification: "asdas",
-        years: "2016 - 2021",
+        university: "JAVA",
+        qualification: "1 years",
+        years: "2018 - 2019",
       },
     ],
   },
@@ -84,13 +74,13 @@ const SkillData = [
     title: "skills",
     data: [
       {
-        name: "Flutter ,Dart",
+        name: "Dart ,Flutter",
       },
       {
-        name: "Flutter ,Dart",
+        name: "Firebase",
       },
       {
-        name: "Flutter ,Dart",
+        name: "Node js",
       },
     ],
   },
@@ -98,27 +88,16 @@ const SkillData = [
     title: "tools",
     data: [
       {
-        imgpath: "/logoss.png",
+        imgpath: "/skills/1.png",
       },
       {
-        imgpath: "/logoss.png",
+        imgpath: "/skills/2.png",
       },
       {
-        imgpath: "/logoss.png",
-      },
-    ],
-  },
-  {
-    title: "skill",
-    data: [
-      {
-        name: "Flutter ,Dart",
+        imgpath: "/skills/3.png",
       },
       {
-        name: "Flutter ,Dart",
-      },
-      {
-        name: "Flutter ,Dart",
+        imgpath: "/skills/4.png",
       },
     ],
   },
@@ -162,12 +141,12 @@ const About = () => {
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-4">
-                      Unmatched Services Qulity for Over 10 Years
+                      Unmatched Services Qulity for Over 3 Years
                     </h3>
                     <p className="subtitle max-w-xl mx-auto xl:mx">
-                      I Sspeccialize in craft intuitive website asdasd
-                      asdzvghjghk fgdfgsdf sdfsxcvzx xczxcd fhdfghdf asdasdas
-                      asdasdasd asdasdasd asdasdasd asdasdasf gtjhuky hbhkmasd
+                     We can build your project and achieve your goal
+                     by communicating with you and understanding your
+                     needs in order to reach the best path
                     </p>
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
                       {InfoData.map((item, index) => {
@@ -305,8 +284,8 @@ const About = () => {
                             <div key={index}>
                               <Image
                                 src={imgpath}
-                                width={150}
-                                height={150}
+                                width={50}
+                                height={50}
                                 alt=""
                                 priority
                               />

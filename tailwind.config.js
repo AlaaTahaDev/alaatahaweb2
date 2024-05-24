@@ -86,6 +86,7 @@ module.exports = {
         logoapp: 'url(/imagedev.png)',
         dots: 'url(/dotsabout.png)',
         contact:'url(/contact.svg)',
+        cover:'url(/cover.png)',
       },
     },
   },

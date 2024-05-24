@@ -5,50 +5,8 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const projectData = [
   {
-    image: "/logoss.png",
-    category: "flutter2",
-    name: "driver app",
-    description: "asdasd sadasdasdfasf asdasdasdasd asdasasdfasdas",
-    link: "",
-  },
-  {
-    image: "/logoss.png",
-    category: "flutter9",
-    name: "driver app",
-    description: "asdasd sadasdasdfasf asdasdasdasd asdasasdfasdas",
-    link: "",
-  },
-  {
-    image: "/logoss.png",
-    category: "flutter8",
-    name: "driver app",
-    description: "asdasd sadasdasdfasf asdasdasdasd asdasasdfasdas",
-    link: "",
-  },
-  {
-    image: "/logoss.png",
-    category: "flutter7",
-    name: "driver app",
-    description: "asdasd sadasdasdfasf asdasdasdasd asdasasdfasdas",
-    link: "",
-  },
-  {
-    image: "/logoss.png",
-    category: "flutter6",
-    name: "driver app",
-    description: "asdasd sadasdasdfasf asdasdasdasd asdasasdfasdas",
-    link: "",
-  },
-  {
-    image: "/logoss.png",
-    category: "flutter1",
-    name: "driver app",
-    description: "asdasd sadasdasdfasf asdasdasdasd asdasasdfasdas",
-    link: "",
-  },
-  {
-    image: "/logoss.png",
-    category: "flutter3",
+    image: "/app2.png",
+    category: "flutter",
     name: "driver app",
     description: "asdasd sadasdasdfasf asdasdasdasd asdasasdfasdas",
     link: "",

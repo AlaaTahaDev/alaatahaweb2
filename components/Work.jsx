@@ -12,49 +12,21 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
-    image: "/logoss.png",
+    image: "/app2.png",
     category: "flutter",
     name: "driver app",
     description: "asdasd sadasdasdfasf asdasdasdasd asdasasdfasdas",
     link: "",
   },
   {
-    image: "/logoss.png",
+    image: "/app2.png",
     category: "flutter",
     name: "driver app",
     description: "asdasd sadasdasdfasf asdasdasdasd asdasasdfasdas",
     link: "",
   },
   {
-    image: "/logoss.png",
-    category: "flutter",
-    name: "driver app",
-    description: "asdasd sadasdasdfasf asdasdasdasd asdasasdfasdas",
-    link: "",
-  },
-  {
-    image: "/logoss.png",
-    category: "flutter",
-    name: "driver app",
-    description: "asdasd sadasdasdfasf asdasdasdasd asdasasdfasdas",
-    link: "",
-  },
-  {
-    image: "/logoss.png",
-    category: "flutter",
-    name: "driver app",
-    description: "asdasd sadasdasdfasf asdasdasdasd asdasasdfasdas",
-    link: "",
-  },
-  {
-    image: "/logoss.png",
-    category: "flutter",
-    name: "driver app",
-    description: "asdasd sadasdasdfasf asdasdasdasd asdasasdfasdas",
-    link: "",
-  },
-  {
-    image: "/logoss.png",
+    image: "/app2.png",
     category: "flutter",
     name: "driver app",
     description: "asdasd sadasdasdfasf asdasdasdasd asdasasdfasdas",
@@ -68,7 +40,7 @@ const Work = () => {
         <div className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
           <h2 className="section-title mb-4">latest Projects</h2>
           <p className="subtitle mb-8">
-            sadasd sadfasdasd asdasd asdfasdasd asdasdasdasd asdasdsd
+            all projects flutter ,dart and nodejs 
           </p>
           <Link href="/projects">
             <Button>All Projects</Button>

@@ -1,4 +1,4 @@
-import { GanttChartSquare ,Blocks,Gem} from "lucide-react";
+import { GanttChartSquare ,Blocks,Gem,} from "lucide-react";
 import { 
     Card ,
     CardContent,
@@ -10,20 +10,20 @@ import {
 const servicesData=[
     {
        icon:<GanttChartSquare size={72} strokeWidth={0.8}/>,
-       title:"mobile App",
-       des:"Flutter Dartasasasasasasasasasasasasasas adas dasadf asd asf a sdf dsf s df as fd asd a sd as da sd as d as da sd a sd s" 
+       title:"mobile Application",
+       des:"I can make an Android and iOS application using the Flutter tool with Dart" 
          
     },
     {
         icon:<Blocks size={72} strokeWidth={0.8}/>,
-        title:"mobile App",
-        des:"Flutter Dartasasasasasasasasasasasasasas adas dasadf asd asf a sdf dsf s df as fd asd a sd as da sd as d as da sd a sd s" 
+        title:"Back End",
+        des:"I can create an integrated backend for your application, preferably with the web or mobile application, using nodejs" 
           
      },
      {
         icon:<Gem size={72} strokeWidth={0.8}/>,
-        title:"mobile App",
-        des:"Flutter Dartasasasasasasasasasasasasasas adas dasadf asd asf a sdf dsf s df as fd asd a sd as da sd as d as da sd a sd s" 
+        title:"full-stack",
+        des:"I can implement the full front-end and back-end on your server, and it will be in Dart, Flutter and Nodejs." 
      },
 ];
 const Services=()=>{
