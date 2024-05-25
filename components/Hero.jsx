@@ -24,8 +24,9 @@ const Hero = () => {
        text-center xl:text-left"
           >
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
-              Mobile Application
+              Mobile  Application
             </div>
+   
             <h1 className="h1 mb-4">Hello My name is Alaa Taha</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
               Android and iOS application programmer using the Flutter tool
