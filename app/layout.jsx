@@ -17,6 +17,9 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta charSet="utf-8"/>
+        <meta name="description" content="alaatahadev is a site for programming applications for Android and iOS"/>
+        <meta name="keywords" content="alaatahadev , alaataha flutter , alaataha , alaataha dart , dart , nodejs , nodejs alaataha , alaa taha dev , alaa taha"/>
+        <meta name="author" content="Alaa Taha"/>
       </head>
       <body className={outfit.className}>
        <ThemeProvider attribute='class' defaultTheme='light'>
