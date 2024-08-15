@@ -4,6 +4,7 @@ import Services from "@/components/services";
 import Work from "@/components/Work";
 import Reviews from "@/components/Reviews";
 import Cta from "@/components/Cta";
+import ScrollSection from "@/components/ScrollSection";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <About/>
       <Services/>
       <Work/>
+      <ScrollSection/>
       <Reviews/>
       <Cta/>
     </main>
