@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+      <link rel="icon" href="/favicon.ico" />
         <meta charSet="utf-8"/>
         <meta name="description" content="alaatahadev is a site for programming applications for Android and iOS"/>
         <meta name="keywords" content="alaatahadev , alaataha flutter , alaataha , alaataha dart , dart , nodejs , nodejs alaataha , alaa taha dev , alaa taha"/>
